@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./mystyle.css" />
+    <title>Movie Seat Booking</title>
+  </head>
+  <body>
+    <nav class="navbar">
+        <div class="main">
+			<div class="logo">
+				<a href="https://www.gharoffice.com/" target="_blank"><img src="gharoffice.png" alt="gharoffice"></a>
+			</div>
+			<ul>
+			   <li> <a href="#"> HOME</a></li>
+			   <li> <a href="https://in.bookmyshow.com/explore/home/mumbai"> MOVIES</a></li>
+			   <li> <a href="#"> CITY</a></li>
+			   <li> <a href="#"> BOOK TICKET</a></li>
+			   <li> <a href="https://www.gharoffice.com/" target="_blank"> ABOUT US </a></li>
+
+			</ul>
+		</div>
+    </nav>
+    <div class="search">
+        <form class="search-bar">
+            <input type="search" class="search1" placeholder="search movie" name="search">
+            <button type="button" class="btn">SEARCH </button>
+            <button type="button" class="btn1">SIGN UP</button>
+        </form>
+    </div>
+    <div class="movie-container">
+      <label> Select a movie:</label>
+      <select id="movie">
+        <option value="220">shehzada (RS.220)</option>
+        <option value="320">pathan (RS.320)</option>
+        <option value="250">RRR (RS.250)</option>
+        <option value="260">F&F X(RS.260)</option>
+        <option value="100">BRAMHASTRA (100)</option>
+        <option value="350">AVATAR (350)</option>
+       
+
+      </select>
+    </div>
+
+    <ul class="showcase">
+      <li>
+        <div class="seat"></div>
+        <small>Available</small>
+      </li>
+      <li>
+        <div class="seat selected"></div>
+        <small>Selected</small>
+      </li>
+      <li>
+        <div class="seat sold"></div>
+        <small>Sold</small>
+      </li>
+    </ul>
+    <div class="container">
+      <div class="screen"></div>
+
+      <div class="row">
+        <div class="seat"></div>
+        <div class="seat"></div>
+        <div class="seat"></div>
+        <div class="seat"></div>
+        <div class="seat"></div>
+        <div class="seat"></div>
+        <div class="seat"></div>
+        <div class="seat"></div>
+      </div>
+
+      <div class="row">
+        <div class="seat"></div>
+        <div class="seat"></div>
+        <div class="seat"></div>
+        <div class="seat sold"></div>
+        <div class="seat sold"></div>
+        <div class="seat"></div>
+        <div class="seat"></div>
+        <div class="seat"></div>
+      </div>
+      <div class="row">
+        <div class="seat"></div>
+        <div class="seat"></div>
+        <div class="seat"></div>
+        <div class="seat"></div>
+        <div class="seat"></div>
+        <div class="seat"></div>
+        <div class="seat sold"></div>
+        <div class="seat sold"></div>
+      </div>
+      <div class="row">
+        <div class="seat"></div>
+        <div class="seat"></div>
+        <div class="seat"></div>
+        <div class="seat"></div>
+        <div class="seat"></div>
+        <div class="seat"></div>
+        <div class="seat"></div>
+        <div class="seat"></div>
+      </div>
+      <div class="row">
+        <div class="seat"></div>
+        <div class="seat"></div>
+        <div class="seat"></div>
+        <div class="seat sold"></div>
+        <div class="seat sold"></div>
+        <div class="seat"></div>
+        <div class="seat"></div>
+        <div class="seat"></div>
+      </div>
+      <div class="row">
+        <div class="seat"></div>
+        <div class="seat"></div>
+        <div class="seat"></div>
+        <div class="seat"></div>
+        <div class="seat sold"></div>
+        <div class="seat sold"></div>
+        <div class="seat sold"></div>
+        <div class="seat"></div>
+      </div>
+    </div>
+
+    <p class="text">
+      You have selected <span id="count">0</span> seat for a price of RS.<span
+        id="total"
+        >0</span
+      >
+    </p>
+    <div class="proceed">
+      <button type="button" class="proceed1">proceed</button>
+    </div>
+    <!-- <script src="script.js"></script> -->
+    <script src="script.js"></script> 
+  </body>
+</html>
